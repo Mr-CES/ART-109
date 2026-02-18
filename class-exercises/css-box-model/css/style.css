@@ -1,0 +1,95 @@
+/*
+CSS RESETS
+*/
+
+
+/* Change box-sizing default to border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* Remove default spacing */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Respect user font settings */
+html {
+  font-size: 100%;
+}
+
+
+
+
+/* ~~~~~~~~~~~ main css ~~~~~~~~~~
+~~~~~~~~~~(add yours below) ~~~~~~~~~~~ */
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #171a21;
+}
+
+
+/* style the header 
+- give it some padding, maybe a background + text color */
+header {
+  padding: 3rem;
+  color: #adadad;
+  background-color: #292e37;
+}
+
+header h1 {
+  font-size: 1.6rem;
+}
+
+
+/* style the div classes  
+- change the background and the font color 
+- can you give them a max-width and center them? 
+- how about some margin and padding?  */
+.about-section, .random-images {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 4rem;
+  color: #adadad;
+}
+
+.about-section, .random-images {
+  padding: 3rem;
+}
+
+.random-images {
+  color: #171a21;
+  background-color: #66c0f4;
+  margin-bottom: 2rem;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+.random-images img {
+  border-radius: .5rem;
+}
+
+footer {
+  color:#adadad;
+  background-color: #232730;
+  padding: 1.5 rem;
+}
+
+footer {
+  padding: 1rem;
+}
+
+
+/* Make images responsive 
+- do a google search if you don't remember how =) */
+img {
+  max-width: 100%; /* Ensures the image never exceeds the width of its container */
+  height: auto;    /* Automatically calculates the height to maintain the aspect ratio */
+}
