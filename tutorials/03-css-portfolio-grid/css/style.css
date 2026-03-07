@@ -1,12 +1,12 @@
 /*~~~~~~~~~~~~~~~color palette*~~~~~~~~~~~~~~~~~*/
 
 :root {
---bg-color-1: #f7e4e4;
---bg-color-2: #f5f5f5;
---font: #000;
---accent-1: #a13f3f;
---accent-2: #e6bbbb;
---dark: #c5c5c5;
+    --bg-color-1: #f7e4e4;
+    --bg-color-2: #f5f5f5;
+    --font: #000;
+    --accent-1: #a13f3f;
+    --accent-2: #e6bbbb;
+    --dark: #c5c5c5;
 }
 
 
@@ -15,6 +15,13 @@
 
 
 /* ~~~~~~~~~~~~CSS resets~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Change box-sizing default to border-box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 * {
     margin: 0;
@@ -46,16 +53,80 @@ header {
     padding: 5rem 2rem;
 }
 
-.about-content, .portfolio-content, .contact-content {
+header h1 {
+    text-shadow: -5px 5px 0px #00e6e6cc, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd99;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--font);
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    color: var(--accent-1);
+}
+
+.about-content,
+.portfolio-content,
+.contact-content {
     max-width: 65rem;
     margin: 5rem auto;
 }
 
-.about-content h2, .portfolio-content h2, .contact-content h2 {
+.about-content h2,
+.portfolio-content h2,
+.contact-content h2 {
     margin: 2rem 0;
 }
 
+.portfolio-item {
+    padding: 1rem;
+    background-color: var(--font);
+    color: var(--bg-color-2);
+    border-radius: .3rem;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+}
+
+.portfolio-item h3 {
+    font-size: 1.3rem;
+}
+
+.portfolio-item img {
+    border-radius: .3rem;
+}
 
 footer {
     padding: 1rem 2rem;
+}
+
+footer img {
+    display: inline;
+    max-width: 3rem;
+    margin: 0 .5rem;
+}
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~ flex styling ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item-grid {
+    flex: 1 0 18rem;
 }
