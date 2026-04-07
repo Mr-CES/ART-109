@@ -1,0 +1,19 @@
+
+.mimic-chase {
+    position: absolute;
+    top: 300px;
+    left: 180px;
+}
+
+.hello-goodbye-div {
+    position: relative;
+    margin: 50px auto;
+    max-width: 400px;
+    font-size: 3rem;
+}
+
+.nothing-there-burst {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
