@@ -1,0 +1,35 @@
+/* ~~~~~~~~~~~~CSS resets~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Change box-sizing default to border-box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*respect user font size preferences */
+html {
+    font-size: 100%;
+}
+
+/* make images responsives */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~General CSS~~~~~~~~~~~~~~ */
+
+header {
+    padding: 2rem;
+}
+
+.artist-statement {
+    padding: 2rem;
+}
