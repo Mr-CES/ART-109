@@ -33,12 +33,94 @@ img {
 /* ~~~~~~~~~~~~~~~~~~~General CSS~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 body {
-    background-color: #111111;
+  background-color: #111111;
 }
 
 header {
-    text-align: center;
-    margin-top: 15rem;
-    font-size: 2rem;
-    color: aliceblue;
+  text-align: center;
+  margin-top: 15rem;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.question-1 {
+  color: aliceblue;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  position: absolute;
+}
+
+.q11 {
+  margin-top: 24rem;
+}
+
+.q12 {
+  margin-top: -30rem;
+  margin-left: 92rem;
+}
+
+.question-2 {
+  color: aliceblue;
+  margin-top: 5rem;
+  margin-left: 34rem;
+  position: absolute;
+}
+
+.q21 {
+  margin-top: -20rem;
+  margin-left: 15rem;
+}
+
+.q22 {
+  margin-top: 20rem;
+  margin-left: 55rem;
+}
+
+.q23 {
+  margin-top: 20rem;
+}
+
+.question-3 {
+  color: aliceblue;
+  margin-left: 30rem;
+  margin-top: -9rem;
+  position: absolute;
+}
+
+.q31 {
+  margin-left: -28rem;
+  margin-top: 40rem;
+}
+
+.q32 {
+  margin-top: -20rem;
+  margin-left: 50rem;
+}
+
+.q33 {
+  margin-left: 40rem;
+  margin-top: 20rem;
+}
+
+.question-4 {
+  color: aliceblue;
+  margin-left: 14rem;
+  position: absolute;
+}
+
+.q41 {
+  margin-left: 90rem;
+}
+
+.q42 {
+  margin-left: 10rem;
+}
+
+.q43 {
+  margin-top: -14rem;
+  margin-left: 30rem;
+}
+
+.hidden {
+  display: none;
 }
