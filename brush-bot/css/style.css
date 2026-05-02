@@ -1,0 +1,40 @@
+/* ~~~~~~~~~~~~CSS resets~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Change box-sizing default to border-box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*respect user font size preferences */
+html {
+    font-size: 100%;
+}
+
+/* make images responsives */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* ~~~~~~~~~~~~~~~~ General CSS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~` */
+
+.image-led {
+    width: 500px;
+    height: auto;
+    padding: 2rem;
+}
+
+.click-video {
+    padding: 2rem;
+}
+
+.statement {
+    padding: 2rem;
+}
