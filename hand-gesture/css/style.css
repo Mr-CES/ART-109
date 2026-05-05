@@ -33,3 +33,37 @@ header {
 .artist-statement {
     padding: 2rem;
 }
+
+.breadboard {
+    width: 500px;
+    height: auto;
+    padding: 2rem;
+}
+
+.exterior {
+    width: 500px;
+    height: auto;
+    padding: 2rem;
+}
+
+.interior {
+    padding: 2rem;
+}
+
+.interior-1 {
+    width: 500px;
+    height: auto;
+    padding: 2rem;
+}
+
+.interior-2 {
+    width: 500px;
+    height: auto;
+    padding: 2rem;
+}
+
+.quiz {
+    width: 500px;
+    height: auto;
+    padding: 2rem;
+}

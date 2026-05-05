@@ -1,0 +1,48 @@
+/* ~~~~~~~~~~~~CSS resets~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Change box-sizing default to border-box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*respect user font size preferences */
+html {
+    font-size: 100%;
+}
+
+/* make images responsives */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~General CSS~~~~~~~~~~~~~~ */
+
+body {
+    background-color: black;
+}
+
+.text-2 {
+    color: aliceblue;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 1.5rem;
+    position: relative;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
